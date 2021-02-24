@@ -84,12 +84,13 @@ h1{
 @media screen and (max-width: 1024px) {
     h1{
     color: #2ed573;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     margin-right: 4rem;
     }
     .player{
         font-size: 1.5rem;
-        margin-right: 4rem;
+        margin-right: 3rem;
+        
     }
     .cell{
     width: 5rem;
@@ -174,14 +175,19 @@ h1{
   
 }
 @media screen and (max-height: 800px) {
+    
     h1{
         color: #2ed573;
         font-size: 3rem;
-        margin-right: 5rem;
+        
     }
     .player{
         font-size: 1.5rem;
-        margin-right: 5rem;
+    }
+    .game-container{
+        width: 10rem;
+        margin-right: 51rem;
+        
     }
     .cell{
         width: 7.5rem;
@@ -190,16 +196,14 @@ h1{
         font-size: 7.5rem;
         border-radius: 1.5rem;
     }
-    .game-container{
-        width: 10rem;
-        margin: 2rem auto;
-        margin-left: 42rem;
+    
+    .info{
+        margin: 0 auto;
     }
     .game-restart{
         height: 2rem;
         width: 5rem;
         font-size: 0.5rem;
-        margin-right: 6rem;
     
 }
 
