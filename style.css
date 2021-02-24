@@ -173,7 +173,7 @@ h1{
     
   
 }
-@media screen and (min-height: 900px) {
+@media screen and (min-height: 800px) {
     h1{
         color: #2ed573;
         font-size: 3rem;
