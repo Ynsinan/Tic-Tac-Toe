@@ -186,7 +186,7 @@ h1{
     }
     .game-container{
         width: 10rem;
-        margin-right: 46rem;
+        margin-right: 44rem;
         
     }
     .cell{
@@ -201,9 +201,11 @@ h1{
         margin: 0 auto;
     }
     .game-restart{
-        height: 2rem;
-        width: 5rem;
-        font-size: 0.5rem;
+        height: 3rem;
+        width: 10rem;
+        margin: 0 auto;
+        margin-right: 1.5rem;
+        font-size: 1rem;
     
 }
 
