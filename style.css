@@ -114,9 +114,9 @@ h1{
 }
 @media screen and (max-width: 768px) {
     h1{
-    color: #2ed573;
-    font-size: 1.5rem;
-    margin-right: 4rem;
+        color: #2ed573;
+        font-size: 1.5rem;
+        margin-right: 4rem;
     }
     .player{
         font-size: 1rem;
@@ -128,7 +128,7 @@ h1{
 }
 @media screen and (max-width: 500px) {
     h1{
-    font-size: 2rem;
+        font-size: 2rem;
     }
     .player{
         font-size: 1rem;
@@ -138,11 +138,11 @@ h1{
         margin-left: 5rem;
     }
     .game-container{
-    margin: 2rem auto;
-    margin-left: 4rem;
+        margin: 2rem auto;
+        margin-left: 4rem;
     }
     .game-restart{
-    margin-right: 5rem;
+        margin-right: 5rem;
     
 }
     
@@ -152,7 +152,7 @@ h1{
 }
 @media screen and (max-width: 350px) {
     h1{
-    font-size: 1rem;
+        font-size: 1rem;
     }
     .player{
         font-size: 1rem;
@@ -162,11 +162,11 @@ h1{
         margin-left: 5rem;
     }
     .game-container{
-    margin: 2rem auto;
-    margin-left: 1rem;
+        margin: 2rem auto;
+        margin-left: 1rem;
     }
     .game-restart{
-    margin-right: 4rem;
+        margin-right: 4rem;
     
 }
     
