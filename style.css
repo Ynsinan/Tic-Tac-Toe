@@ -5,11 +5,10 @@ body{
 }
 section{
     text-align: center;
-    margin: 0 auto;
 }
 h1{
     color: #2ed573;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: cursive;
 
 }
@@ -17,7 +16,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(3,auto);
     width: 20rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     
     
 }
@@ -146,10 +145,6 @@ h1{
         margin-right: 5rem;
     
 }
-    
-    
-  
-  
 }
 @media screen and (max-width: 350px) {
     h1{
