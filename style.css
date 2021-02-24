@@ -1,0 +1,175 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-color:#2f3542 ;
+}
+section{
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    color: #2ed573;
+    font-size: 5rem;
+    font-family: cursive;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 20rem;
+    margin: 2rem auto;
+    
+    
+}
+.cell{
+    font-family: "Permanent Marker",cursive;
+    color: #2ed573;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 0 0 1px white;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 8rem;
+    font-size: 10rem;
+    border-radius: 3rem;
+}
+.cell:hover{
+    transition: 0.5s;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);             
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg)
+    
+}
+
+.game-restart{
+    height: 5rem;
+    width: 10rem;
+    box-shadow: 0px 1px 0px 0px #2ed573;
+	background:linear-gradient(to bottom, #2ed573 5%, #2ed573 100%);
+	background-color:#2ed573;
+	border-radius:6px;
+	border:1px solid #2ed573;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2ed573;
+
+}
+.game-restart:hover{
+    background:linear-gradient(to bottom, #73eba5 5%, #73eba5 100%);
+	background-color:#73eba5;
+}
+.game-restart:active{
+    position:relative;
+	top:1px;
+}
+.info{
+    font-family: "Permanent Marker",cursive;
+    margin-left: 10rem;
+    color: #2ed573;
+}
+.player{
+    font-family: "Permanent Marker",cursive;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    h1{
+    color: #2ed573;
+    font-size: 2.1rem;
+    margin-right: 4rem;
+    }
+    .player{
+        font-size: 1.5rem;
+        margin-right: 4rem;
+    }
+    
+    .cell{
+    width: 5rem;
+    height: 5rem;
+    line-height: 4rem;
+    font-size: 5rem;
+    border-radius: 1.5rem;
+    }
+    .game-container{
+    width: 10rem;
+    margin: 2rem auto;
+    }
+    .game-restart{
+    height: 2rem;
+    width: 5rem;
+    font-size: 0.5rem;
+    margin-right: 4rem;
+    
+}
+    
+  
+}
+@media screen and (max-width: 768px) {
+    h1{
+    color: #2ed573;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    }
+    .player{
+        font-size: 1rem;
+        margin-right: 4rem;
+    }
+
+ 
+  
+}
+@media screen and (max-width: 500px) {
+    h1{
+    font-size: 2rem;
+    }
+    .player{
+        font-size: 1rem;
+        margin-right: 4rem;
+    }
+    .info{
+        margin-left: 5rem;
+    }
+    .game-container{
+    margin: 2rem auto;
+    margin-left: 4rem;
+    }
+    .game-restart{
+    margin-right: 5rem;
+    
+}
+    
+    
+  
+  
+}
+@media screen and (max-width: 350px) {
+    h1{
+    font-size: 1rem;
+    }
+    .player{
+        font-size: 1rem;
+        margin-right: 4rem;
+    }
+    .info{
+        margin-left: 5rem;
+    }
+    .game-container{
+    margin: 2rem auto;
+    margin-left: 1rem;
+    }
+    .game-restart{
+    margin-right: 4rem;
+    
+}
+    
+    
+  
+}
