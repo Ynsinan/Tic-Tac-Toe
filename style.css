@@ -174,39 +174,3 @@ h1{
     
   
 }
-@media screen and (max-height: 800px) {
-    
-    h1{
-        color: #2ed573;
-        font-size: 3rem;
-        
-    }
-    .player{
-        font-size: 1.5rem;
-    }
-    .game-container{
-        width: 10rem;
-        margin-right: 44rem;
-        
-    }
-    .cell{
-        width: 7.5rem;
-        height: 7.5rem;
-        line-height: 7rem;
-        font-size: 7.5rem;
-        border-radius: 1.5rem;
-    }
-    
-    .info{
-        margin: 0 auto;
-    }
-    .game-restart{
-        height: 3rem;
-        width: 10rem;
-        margin: 0 auto;
-        margin-right: 1.5rem;
-        font-size: 1rem;
-    
-}
-
-}
