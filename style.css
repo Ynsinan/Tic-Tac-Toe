@@ -11,6 +11,7 @@ h1{
     color: #2ed573;
     font-size: 5rem;
     font-family: cursive;
+
 }
 .game-container{
     display: grid;
@@ -80,7 +81,7 @@ h1{
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) {
     h1{
     color: #2ed573;
     font-size: 2.1rem;
@@ -90,7 +91,6 @@ h1{
         font-size: 1.5rem;
         margin-right: 4rem;
     }
-    
     .cell{
     width: 5rem;
     height: 5rem;
